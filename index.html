@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="indec.css">
+<style>
+  
+</style>
+<body>
+    <div class="con">
+        <span onclick="myFunction()">&#9776</span>
+        <ul class="box" id="box">
+            <li onclick="myhome()">home</li>
+            <li onclick="myabout()">about</li>
+            <li onclick="myhome()">contcat</li>
+            <li onclick="myservices()">serivces</li>
+        </ul>
+
+        
+    </div>
+         <div class="resume" id="resume">
+            <h1>resume</h1>
+            <h2>My name is :</h2>
+            <h3> raghunandan vishwakarma</h3>
+        <h2>objective</h2>
+        <h3>my aim is become to bussenesman</h3>
+        <h2>Education:</h2>
+        <h3>I am persuring bechaler of technology from united colloge of engineering and research and my branch is electronic and communiction </h3>
+       <h2>skills</h2>
+       <h3>HTML</h3>
+       <h3>css</h3>
+       <h3>javascript</h3>
+       <h3>c language</h3>
+       <h3>data structure</h3>
+       <h3>graphics</h3>
+       <h2>contcat</h2>
+       <h3></h3>
+    </div>
+    <div id="about">
+       <div class="t">
+name: <input type="text" name="" id="" placeholder="name"></div>
+<div class="t">
+address: <input type="text" name="name" placeholder="addredd"></div>
+
+<div class="t">email: <input type="text" placeholder="email"></div>
+<div class="t">possward: <input type="text" name="" id="" placeholder="possward"></div>
+       
+
+    </div>
+    <script>
+        function myFunction(){
+            var A =document.getElementById("box")
+            if(A.style.display==="block"){
+                A.style.display="none"
+            }
+            else{
+                A.style.display="block"
+            }
+        }function myhome(){
+        
+        var A =document.getElementById("resume")
+        
+        if(A.style.display==="none"){
+            A.style.display="block"
+        }
+        else{
+            A.style.display="none"
+        }
+    
+}function myservices(){
+        
+        var A =document.getElementById("resume")
+        
+        if(A.style.display==="none"){
+            A.style.display="block"
+        }
+        else{
+            A.style.display="none"
+        }
+    
+}function myabout(){
+        
+        var A =document.getElementById("about")
+        
+        if(A.style.display==="none"){
+            A.style.display="block"
+        }
+        else{
+            A.style.display="none"
+        }
+    
+}
+        
+    </script>
+
+</body>
+</html>
